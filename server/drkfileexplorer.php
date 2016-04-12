@@ -73,7 +73,7 @@
   <body>
     <form action="drkfilebrowser.php" method="post"  enctype="multipart/form-data">
     <div class="window">
-    <div class="title">DrkFileExplorer v0.3</div>
+    <div class="title">DrkFileExplorer v0.3.1</div>
     <div class="header">
 <?     
     // La racine est $DOCUMENT_ROOT
@@ -145,7 +145,7 @@ while ($file = $dir->read())
       }
       echo "<div class=\"fileinfo\">\n";
       echo "<img src=\"$image\" alt=\"$alt\" />";
-      echo " <a href=\"$curdir/$file\" target=\"$dest\">";
+      echo " <a href=\"".str_replace($DOCUMENT_ROOT, "", $curdir)."/$file\" target=\"$dest\">";
       echo "$file";
       echo "</a>\n";
       echo "</div>\n";

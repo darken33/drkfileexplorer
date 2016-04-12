@@ -1,5 +1,5 @@
 ==============================================================================
-drkFileExplorer v0.3
+drkFileExplorer v0.3.1
 Explortateur de fichier en PHP pour serveur WEB
 Copyright (c) 2004 - Philippe Bousquet <Darken33@free.fr>
 http://darken33.free.fr/
@@ -26,9 +26,9 @@ car je désirais pouvoir naviguer à ma guise parmis tous mes répèrtoires.
  
 INSTALLATION
 ------------
-La première chose à faire est de décompresser l'archive drkfileexplorer-0.3.tar.gz
+La première chose à faire est de décompresser l'archive drkfileexplorer-0.3.1.tar.gz
 sur votre serveur web (généralement dans le repertoire /var/www/html/) :
-  # tar xzf drkfileexplorer-0.3.tar.gz
+  # tar xzf drkfileexplorer-0.3.1.tar.gz
 
 L'ideal est de faire un lien simbolique de drkfilebrowser.php en index.php :
   # cd /var/www/html/drkfilebrowser/
@@ -51,7 +51,7 @@ pour plus d'information veuillez consulter le fichier Lincense.txt.
 CONTENU DE L'ARCHIVE
 --------------------
 
-drkfileexplorer-0.3/
+drkfileexplorer-0.3.1/
 |   drkfileexplorer.php // Fichier php pour drkfilebrowser
 |   License.txt         // La Gnu General Public License
 |   README.txt          // Ce fichier que vous lisez ;-) 
